@@ -1,0 +1,167 @@
+.top{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.left{
+    width:45%;
+}
+.right{
+    width:45%;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    list-style: none; 
+}
+.list1:hover{
+    background-color: #e85356;
+}
+.list1{
+    border-radius: 100px;
+    padding: 25px 15px;
+    font-size: 20px;
+}
+.c1{
+    width: 100%;
+    background-image:url(../images/bg-content.jpg);    
+    padding-top: 3%;
+}
+.samp{
+    display: flex;
+    justify-content: center;
+}
+.c1sub{
+    width:90%;
+    display: flex;
+    justify-content:center;
+    align-content: stretch;
+    background-color: aquamarine;
+}
+.samp2{
+    display: flex;
+    justify-content: center;
+}
+.c1subcon{
+    width: 90%;
+    display: flex;
+    justify-content:center;
+}
+.ver{
+    height:60px;
+    border-left:1px solid grey;
+    display: flex;
+    margin-top: 40px;
+}
+.conleft{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    color:white;
+}
+#wel{
+    font-size: 40px;
+}
+.conright{
+    width: 71%;
+    padding: 2% 2% 0% 2%;
+    color:#7f7f7f;
+}
+.c2{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+    padding-bottom: 30px;
+}
+.c2-1{
+    color: beige;
+    width:21%;
+}
+.c2-2{
+    color: beige;
+    width:21%;
+}
+.c2-3{
+    color: beige;
+    width:21%;
+}
+.c2-4{
+    color: beige;
+    width:21%;
+}
+.btn1{
+    background-color: #e85356;
+    color: white;
+    padding: 10px;
+}
+.c3{
+    width: 100%;
+    background-image:url(../images/bg-content.jpg);    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+.c3-1{
+    width:45%;
+    display: flex;
+}
+.c31-left{
+    width: 50%;
+    color: white;
+}
+.c31-right{
+    width:42%;
+    padding-top: 12%;
+    padding-right: 8%;
+}
+.c31inner{
+    display: flex;
+    color: #e85356;
+}
+.list2{
+    padding: 0%;
+}
+.list2 l2{
+    background: url(../images/marker-1.png);
+}
+.l2{
+    list-style: none outside;
+    padding: 0px 25px 20px 0px;
+}
+.l2::before{
+    content:"\203A";
+}
+.c3-2{
+    width: 45%;
+}
+.c3gal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.pic{
+    width: 130px;
+    height: 100px;
+}
+.footer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.fooleft{
+    width: 45%;
+    padding: 2% 0%;
+}
+.fooright{
+    width: 45%;
+    padding: 2% 0%;
+    display: flex;
+    justify-content: flex-end;
+}
+.pic2{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
